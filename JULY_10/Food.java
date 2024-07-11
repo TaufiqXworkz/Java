@@ -15,9 +15,9 @@ public class Food{
 		"panipuri","Gobi", "EggPups", "Chicken", "FiredRice","Momos", "EggRice", 
 		"bread", "noddles", "Prown", "Fish", "vegRice","Biryani", "Parota", "Tali", "Pao"}; 
 		
-		int[] foodItemQuatity={2,5,6,7,8,10,11,24,3,4,6,9,2,4,6,14,11,12,14,10};
+		int[] foodItemQuatity={2,5,6,7,8,10,11,24,3,4,6,9,2,4,6,14,11,12,14,10}; //quatity
 		
-		int[] foodPrice={40,50,30,10,30,30,10,40,50,30,10,10,35,50,50,60,20,100,40,70};
+		int[] foodPrice={40,50,30,10,30,30,10,40,50,30,10,10,35,50,50,60,20,100,40,70}; // in rupees
 		
 		for(int i=0; i<foodItems.length ; i++){
 			
