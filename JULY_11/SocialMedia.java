@@ -1,3 +1,7 @@
+/* create 20 classes
+in 5 classes declare 10 variables and assign values to this var using literal way variables should be used local, static, parameter variables
+*/
+
 public class SocialMedia{
 
 	//static variables declaration
