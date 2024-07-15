@@ -14,11 +14,11 @@ public class ReverseNumber{
 			number = number /10;
 		}
 		*/
-		for(int i=0; i<=number ; i++){
+		for(; number !=0; number=number/10;){
 			long rem = number% 10;
 			reverse = reverse * 10 + rem;
 			//System.out.println("reverse: "+reverse+ " rem: "+rem);
-			number = number /10;
+			//number = number /10;
 		}
 		System.out.println("reverse: "+reverse);
 
