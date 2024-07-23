@@ -1,10 +1,9 @@
 /* Program:
 [0,1,0,0,1,0,1,0,1]
-write a program to count the 0's and 1's
-in a given array
+write a program to count the 0's and 1's in a given array
 */
 
-public class ZeroAndOnes{
+public class ZeroAndOnes{5
 	
 	public static void main(String args[]){
 		

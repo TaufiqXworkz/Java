@@ -6,21 +6,21 @@ public class ReverseNumber{
 		
 		long number = 9876543210L;
 		long reverse=0L;
-		/* 
+		long rem =0L;
+		 
 		while(number>0){
-			int rem = number% 10;
+			 rem = number% 10;
 			reverse = reverse * 10 + rem;
 			System.out.println("reverse: "+reverse+ " rem: "+rem);
 			number = number /10;
 		}
-		*/
-		for(; number !=0; number=number/10;){
+		/*
+		for(; number !=0; number=number/10){
 			long rem = number% 10;
 			reverse = reverse * 10 + rem;
-			//System.out.println("reverse: "+reverse+ " rem: "+rem);
-			//number = number /10;
+			
 		}
 		System.out.println("reverse: "+reverse);
-
+	*/
 	}
 }
