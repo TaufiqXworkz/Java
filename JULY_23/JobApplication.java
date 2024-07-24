@@ -76,7 +76,7 @@ public class JobApplication{
 	
 	public int percentageCount(int sub1,int sub2,int sub3,int sub4,int sub5,int sub6){
 		int sslcPercentage = (sub1+sub2+sub3+sub4+sub5+sub6)/6;
-		System.out.println("The percentage of sslc is:"+sslcPercentage);
+		System.out.println("The percentage of sslc is:"+sslcPercentage+"%");
 		return sslcPercentage;
 	}
 	
@@ -94,7 +94,7 @@ public class JobApplication{
 		job3.jobCriteria4(82,"B.E");
 		job3.percentageCount(85,56,98,75,65,74);
 		
-		
+	
 	}
 	
 	
