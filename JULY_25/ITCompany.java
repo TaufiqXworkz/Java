@@ -25,7 +25,7 @@ class ITCompany {
     
     public String updateEmployeeName(String oldEmployeeName, String newEmployeeName) {
         for (int i = 0; i < getArrayLength(); i++) {
-            if (employees[i] != null && employees[i].equals(oldEmployeeName)) {
+            if (employees[i] ==oldEmployeeName) {
                 employees[i] = newEmployeeName;
                 return "Updated Successfully";
             }
@@ -35,7 +35,7 @@ class ITCompany {
     
     public String deleteEmployeeName(String employeeName) {
         for (int i = 0; i < getArrayLength(); i++) {
-            if (employees[i] != null && employees[i].equals(employeeName)) {
+            if (employees[i] ==employeeName) {
                 employees[i] = null;
                 return "Deleted Successfully";
             }
@@ -45,7 +45,7 @@ class ITCompany {
     
     public String searchEmployeeName(String employeeName) {
         for (int i = 0; i < getArrayLength(); i++) {
-            if (employees[i] != null && employees[i].equals(employeeName)) {
+            if (employees[i] ==employeeName) {
                 return "Search Employee Found: " + employeeName;
             }
         }

@@ -16,20 +16,5 @@ assign values using constructor and display,*/
 
 	 }
 	 
-	 public static void main(String args[]){
-		Bag bagdetails = new Bag("Lenovo",1200,"Black",true);
-		
-		// String bagCompanyName=bagdetails.bagCompanyName="Lenovo";
-		System.out.println("the bagCompanyName is " +bagdetails.bagCompanyName);
-		
-		//int bagPrice=bagdetails.bagPrice=1200;
-		System.out.println("the bagPrice is "+bagdetails.bagPrice);
-		
-		//String bagColor=bagdetails.bagColor="Black";
-		System.out.println("the bag color is " +bagdetails.bagColor);
-		
-		//boolean isBagQuality=bagdetails.isBagQuality=true;
-		System.out.println("the quality of is " +bagdetails.isBagQuality);		
-
-	 }
+	 
  }
